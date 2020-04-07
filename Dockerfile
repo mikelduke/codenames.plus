@@ -7,9 +7,9 @@ USER node
 RUN mkdir -p /home/node/codenames
 WORKDIR /home/node/codenames
 
-ADD * ./
-ADD server/ ./server/
-ADD public/ ./public/
+COPY --chown=node * ./
+COPY --chown=node server/ ./server/
+COPY --chown=node public/ ./public/
 
 RUN npm install
 
