@@ -1,0 +1,6 @@
+{
+  "name": "codenames.plus",
+  "description": "nodejs server for multiplayer codenames webapp game",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
+}
